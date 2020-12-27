@@ -41,22 +41,3 @@ def print_my_secret_santa_recipient(name, pairs):
 
 # List of participants
 park = ["Mordecai", "Rigby", "Pops", "Mitch", "Skips", "Benson", "Hi Five Ghost", "Margaret", "Eileen"]
-
-
-
-new_draw = random_picker(park)
-print()
-print("Printing all pairs:")
-print()
-print_all_pairs(new_draw)
-print("---")
-print()
-print("Printing only the person assigned to Skips:")
-print()
-print_my_secret_santa_recipient("Skips", new_draw)
-print("---")
-print()
-print("Trying to print someone that is not in the list:")
-print()
-print_my_secret_santa_recipient("Mr. Maellard", new_draw)
-print("---")
