@@ -42,6 +42,8 @@ def print_my_secret_santa_recipient(name, pairs):
 # List of participants
 park = ["Mordecai", "Rigby", "Pops", "Mitch", "Skips", "Benson", "Hi Five Ghost", "Margaret", "Eileen"]
 
+
+
 new_draw = random_picker(park)
 print()
 print("Printing all pairs:")
